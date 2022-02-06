@@ -1,0 +1,108 @@
+/* pages/xiaobei/xiaobei.wxss */
+.btn{
+  position: relative;
+  width:100%;
+  height:100%;
+  margin-top:200rpx;
+  background-color: rgba(66, 53, 53, 0);
+  color: rgba(0, 0, 0, 0.404);
+  border-radius: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: flex;
+  font-weight:100;
+  font-size: smaller;
+  justify-content: center;
+
+}
+
+.background-view{
+  
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  margin-top:200rpx;
+  
+}
+.btn2{
+  width:80%;
+  height: 100%;
+  margin-top:130rpx;
+  background-color: #1ac0fe;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn1{
+  background-color: rgba(66, 53, 53, 0);
+  color: #d9d9d9;
+  align-items: flex;
+  font-weight:200;
+  font-size: small;
+  letter-spacing:3rpx;
+  
+
+}
+
+.btn3{
+  position: relative;
+  width:100%;
+  height:100%;
+  margin-top:200rpx;
+  background-color: rgba(66, 53, 53, 0);
+  color: black;
+  border-radius: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: flex;
+  font-weight:800;
+  font-size: normal;
+  letter-spacing:0rpx;
+  justify-content: center;
+
+}
+view.search {
+  display: flex;
+  flex-direction: row;
+  height: 98rpx;
+  background: #efeff4;
+  align-items: center;
+}
+
+view.searchItem {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+view.searchItem image {
+  height: 42rpx;
+  width: 42rpx;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+
+view.searchItem input {
+  flex: 1;
+  font-size: 30rpx;
+}
+
+.btn4{
+  background-color: rgba(66, 53, 53, 0);
+  color: #343434;
+  align-items: flex;
+  font-weight:800;
+  font-size: large;
+  letter-spacing:3rpx;
+  
+
+}

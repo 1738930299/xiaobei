@@ -1,14 +1,16 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/xiaobei/xiaobei"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
   },
+  "usingComponents":{
+    "head": "components/head/index"
+  },
+  
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

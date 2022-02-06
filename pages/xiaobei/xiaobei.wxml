@@ -1,0 +1,59 @@
+<!--pages/xiaobei/xiaobei.wxml-->
+<!-- 引入刚才在app.json中声明的head组件 -->
+<head></head>
+
+<!-- 页面布局 --> 
+<!-- 时间 -->
+<view class="btn3" style="position: relative;">
+<view class="text-title"></view>
+<view class="show-time" bindtap="onLoad" style="position: relative; left: -24rpx; top: 38rpx">{{time}}</view>
+</view>
+
+<view class="btn" style="position: relative; left: 76rpx; top: 0rpx; width: 658rpx; height: 72rpx; display: flex; box-sizing: border-box">
+<view class="btn4" style="position: relative; left: 0rpx; top: 0rpx; width: 228rpx; height: 46rpx; display: flex; box-sizing: border-box">
+</view>
+</view>
+ 
+<image class="btn" style="position: relative; left: 1rpx; top: -341rpx; width: 750rpx; height: 71rpx; display: flex; box-sizing: border-box" src="cloud://cloud1-8gumj8dt21e1094c.636c-cloud1-8gumj8dt21e1094c-1308556779/白边.jpg"></image>
+
+<view class="itemView" style="position: relative; left: 301rpx; top: -305rpx; width: 403rpx; height: 69rpx; display: block; box-sizing: border-box">
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 10rpx; top: -14rpx" type="text"  class="input" name="userName" placeholder="学生信息" 
+    bindinput="userNameInput" style="font-weight:800;font-size: large;letter-spacing:3rpx; width: 363rpx; height: 51rpx; display: block; box-sizing: border-box"/> 
+  </view>
+
+
+
+<image class="btn" style="position: relative;" src="cloud://cloud1-8gumj8dt21e1094c.636c-cloud1-8gumj8dt21e1094c-1308556779/图标.jpg" style="width: 68rpx; height: 303rpx; display: inline-block; box-sizing: border-box; position: relative; left: 196rpx; top: -484rpx"></image>
+
+<view style="position: relative; left: 29rpx; top: -412rpx; width: 692rpx; height: 225rpx; display: block; box-sizing: border-box">
+<view class="itemView" style="position: relative; left: 232rpx; top: -372rpx; width: 486rpx; height: 44rpx; display: block; box-sizing: border-box">
+  <lable style="margin-right: -80px; margin-left: 40px; position: absolute; left: -70rpx; top: -4rpx" class="btn1">姓名</lable>
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 4rpx; top: -4rpx" type="text"  class="input" name="userName" placeholder="。。。" 
+    bindinput="userNameInput"/> 
+  </view>
+  <view class="itemView" style="position: relative; left: 232rpx; top: -352rpx; width: 486rpx; height: 44rpx; display: block; box-sizing: border-box">
+    <lable style="margin-right: -80px; margin-left: 40px; position: absolute; left: -70rpx; top: -4rpx" class="btn1">学号</lable>
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 4rpx; top: -8rpx" type="text"  class="input" name="userName" placeholder="。。。" 
+    bindinput="userNameInput"/> 
+  </view>
+  <view class="itemView" style="position: relative; left: 232rpx; top: -328rpx; width: 486rpx; height: 44rpx; display: block; box-sizing: border-box">
+    <lable style="margin-right: -80px; margin-left: 40px; position: absolute; left: -70rpx; top: -4rpx" class="btn1">班级</lable>
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 10rpx; top: -14rpx" type="text"  class="input" name="userName" placeholder="。。。" 
+    bindinput="userNameInput"/> 
+  </view>cueyuan
+  <view class="itemView" style="position: relative; left: 232rpx; top: -345rpx; width: 486rpx; height: 44rpx; display: block; box-sizing: border-box">
+    <lable style="margin-right: -80px; margin-left: 40px; position: absolute; left: -70rpx; top: -4rpx" class="btn1">学院</lable>
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 10rpx; top: -14rpx" type="text"  class="input" name="userName" placeholder="。。。" 
+    bindinput="userNameInput"/> 
+  </view>
+  <view class="itemView" style="position: relative; left: 232rpx; top: -323rpx; width: 486rpx; height: 44rpx; display: block; box-sizing: border-box">
+    <lable style="margin-right: -80px; margin-left: 40px; position: absolute; left: -70rpx; top: -4rpx" class="btn1">学校</lable>
+    <input style="position: relative; padding-left: 40px; width: 350rpx; height: 36rpx; display: block; box-sizing: border-box; left: 10rpx; top: -14rpx" type="text"  class="input" name="userName" placeholder="。。。" 
+    bindinput="userNameInput"/> 
+  </view>
+</view>
+
+<image class="btn" style="position: relative; left: -1rpx; top: -868rpx; width: 750rpx; height: 71rpx; display: flex; box-sizing: border-box" src="cloud://cloud1-8gumj8dt21e1094c.636c-cloud1-8gumj8dt21e1094c-1308556779/白边.jpg"></image>
+
+<view style="position: relative; background: {{viewBg}}; color: white; height: 225rpx; width: 658rpx; display: block; box-sizing: border-box; left: 48rpx; top: -868rpx"></view>
+<view class="btn2" type="default" bindtap="changeBg" style="position: relative; left: 75rpx; top: -819rpx; width: 600rpx; height: 72rpx; display: flex; box-sizing: border-box">返校签到</view>
